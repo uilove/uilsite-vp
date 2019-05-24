@@ -11,6 +11,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: `/img/icon.png` }]
   ],
+  ga: 'UA-140776934-1',
   themeConfig: {
     logo: '/img/logo.svg',
     nav: [
