@@ -22,8 +22,9 @@ module.exports = {
     ],
     sidebar: {
       '/design-systems/': [
-        'a',
-        'b'
+        '',
+        'design-principles',
+        'color'
       ]
     },
     displayAllHeaders: false
