@@ -6,9 +6,10 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' }],
     ['meta', { name: 'theme-color', content: '#d5001a' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
     ['link', { rel: 'apple-touch-icon', href: `/img/icon.png` }]
   ],
   ga: 'UA-140776934-1',
